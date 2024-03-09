@@ -1,0 +1,24 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.0.2
+% see http://writer2latex.sourceforge.net for more info
+\documentclass[a4paper,11pt]{report}
+\usepackage[product=All~products,mantitle={Description of updates}]{updates}
+%\usepackage{updatesdefs}
+
+% Graphics type
+\usepackage[pdftex]{graphicx}
+
+% Tables with page breaks
+\usepackage{array}
+\usepackage{supertabular}
+%\usepackage{hhline}
+
+\begin{document}
+\manualFrontMatter{}
+\thispagestyle{FirstPage}
+\input{chp-overview.tex}
+\input{chp-versions.tex}
+\input{chp-bugfixes.tex}
+\input{chp-proglayout.tex}
+\input{chp-arguments.tex}
+\input{chp-config-files.tex}
+\end{document}
